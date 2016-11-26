@@ -47,12 +47,9 @@ $(function () {
         tooltip: {
             formatter: function() {
                     info = {
-                        "Studies I": "Mathematics degree at PUC",
-                        "Studies II": "Master in Statistics at PUC",
-                        "Scoring Analyst": "at Corpbanca",
-                        "Risk Analyst": "at Equifax Chile",
-                        "Senior Data Scientist": "at Foris",
-                        "Senior Scoring Analyst": "at Scotiabank",
+                        "Studies I": "Information Security at MTUCI",
+                        "Studies II": "Master in Big Data at HSE",
+                        
                     };
                     
                     date_format = Highcharts.dateFormat('%Y - %B', new Date(this.x));
@@ -61,12 +58,8 @@ $(function () {
             }
         },
         series: [
-            { name: "Studies I",                lineWidth: 10, data: [ [Date.UTC(2004, 3, 1), 1], [Date.UTC(2007,11, 1), 1], ] },
-            { name: "Studies II",               lineWidth: 10, data: [ [Date.UTC(2008, 3, 1), 2], [Date.UTC(2009,11, 1), 2], ] },
-            { name: "Scoring Analyst",          lineWidth: 10, data: [ [Date.UTC(2010, 8, 1), 3], [Date.UTC(2011, 2, 1), 3], ] },
-            { name: "Risk Analyst",             lineWidth: 10, data: [ [Date.UTC(2011, 2, 1), 4], [Date.UTC(2013, 1, 1), 4], ] },
-            { name: "Senior Data Scientist",    lineWidth: 10, data: [ [Date.UTC(2013, 1, 1), 5], [Date.UTC(2014, 8, 1), 5], ] },
-            { name: "Senior Scoring Analyst",   lineWidth: 10, data: [ [Date.UTC(2014, 8, 1), 6], [Date.UTC(new Date().getFullYear(),  new Date().getMonth(), 1), 6], ]}
+            { name: "Studies I",                lineWidth: 10, data: [ [Date.UTC(2011, 9, 1), 1], [Date.UTC(2015,7, 1), 1], ] },
+            { name: "Studies II",               lineWidth: 10, data: [ [Date.UTC(2015, 9, 1), 2], [Date.UTC(2017,7, 1), 2], ] },
         ]
     };
 
@@ -79,15 +72,13 @@ $(function () {
 
     var words = [
       {text: "R", size: 25}, {text: "Statistics", size: 20},
-      {text: "D3JS", size: 25}, {text: "Javascript", size: 25},
-      {text: "Python", size: 20}, {text: "Modelling", size: 20},
+      {text: "Python", size: 30}, {text: "Modelling", size: 20},
       {text: "Visualization", size: 20}, {text: "Github", size: 20},
-      {text: "Django", size: 20}, {text: "Arduino", size: 20},
-      {text: "Guitar", size: 20}, {text: "Music", size: 20},
+      {text: "java", size: 10}, {text: "Arduino", size: 20},
+      {text: "Machine Learning", size: 25}, {text: "Machine Learning", size: 20},
       {text: "Programming", size: 20}, {text: "The smell of freshly-cut grass", size: 10},
       {text: "I don't like wordclouds", size: 10}, {text: "Predictions", size: 20},
       {text: "Data", size: 25}, {text: "Domotic", size: 20},
-      {text: "Shiny", size: 20}, {text: "dplyr", size: 20},
       {text: "RStudio", size: 20}, {text: "", size: 20},
       {text: "", size: 20}, {text: "", size: 20},
       {text: "", size: 20}, {text: "", size: 20},
