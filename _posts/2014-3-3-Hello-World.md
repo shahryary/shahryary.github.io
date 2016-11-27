@@ -1,4 +1,7 @@
 ---
+title: "pokemon: visualize 'em all!"
+author: "Joshua Kunst"
+categories: R
 layout: post
 title: You're up and running!
 ---
