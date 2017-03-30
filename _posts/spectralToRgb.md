@@ -1,3 +1,13 @@
+---
+title: "Combine Multispectral images into a regular colored image!"
+author: "Shahryary Yadi"
+categories: R
+layout: post
+comments: true
+
+---
+
+
 ### Purpose
 
 Combine Multispectral images into a regular colored image.
