@@ -1,10 +1,12 @@
 ---
-title: "Combine Multispectral images into a regular colored image!"
-author: "Shahryary Yadi"
+title: "Combine Multispectral images into a regular colored image."
+author: "Yadi Shahryary"
+output:
+ html_document:
+   toc: true
+   keep_md: yes
 categories: R
 layout: post
-comments: true
-
 ---
 
 
